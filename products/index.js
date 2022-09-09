@@ -12,6 +12,9 @@ const productSchema = new mongoose.Schema({
     productDiscountPrice: {
         type: Number
     },
+    productDetails:{
+        type: String
+    },
     productImages: [String],
     productColor: {
         type: String
